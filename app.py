@@ -14,8 +14,9 @@ st.set_page_config(
 )
 
 # Load model and metadata
-MODEL_PATH = '/home/sary/abir/loan_model.pkl'
-METADATA_PATH = '/home/sary/abir/model_metadata.json'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, 'loan_model.pkl')
+METADATA_PATH = os.path.join(BASE_DIR, 'model_metadata.json')
 
 @st.cache_resource
 def load_assets():

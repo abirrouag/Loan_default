@@ -1,13 +1,16 @@
 import os
 import json
 import pandas as pd
+# pyrefly: ignore [missing-import]
 import numpy as np
 from sklearn.model_selection import train_test_split, GridSearchCV
+# pyrefly: ignore [missing-import]
 from xgboost import XGBClassifier
 import joblib
 
 def train_model():
-    dataset_path = '/home/sary/abir/train_u6lujuX_CVtuZ9i.csv'
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    dataset_path = os.path.join(base_dir, 'train_u6lujuX_CVtuZ9i.csv')
     if not os.path.exists(dataset_path):
         raise FileNotFoundError(f"Dataset not found at {dataset_path}")
         
@@ -112,7 +115,7 @@ def train_model():
     print(f"Model trained successfully. F1 Train Score: {train_score:.4f}, Accuracy Test Score: {test_score:.4f}")
 
     # 12. Save model
-    model_output_path = '/home/sary/abir/loan_model.pkl'
+    model_output_path = os.path.join(base_dir, 'loan_model.pkl')
     joblib.dump(best_model, model_output_path)
     print(f"Model saved to {model_output_path}")
 
@@ -128,7 +131,7 @@ def train_model():
         'accuracy_test_score': float(test_score)
     }
     
-    metadata_path = '/home/sary/abir/model_metadata.json'
+    metadata_path = os.path.join(base_dir, 'model_metadata.json')
     with open(metadata_path, 'w') as f:
         json.dump(metadata, f, indent=4)
     print(f"Metadata saved to {metadata_path}")

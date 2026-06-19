@@ -10,4 +10,4 @@ fi
 
 # Run the app
 echo "Starting Streamlit App..."
-streamlit run /home/sary/abir/app.py
+streamlit run "$(dirname "$0")/app.py"
