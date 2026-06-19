@@ -1,0 +1,46 @@
+Cahier des Charges : Projet Machine Learning End-to-End
+1. Contexte et Objectifs
+L'objectif de ce projet est de mettre en pratique les connaissances théoriques acquises en Machine Learning/DeepLearning à travers un cas d'usage réel. L'étudiant doit démontrer sa capacité à gérer un projet de données de A à Z : de la définition du problème à la mise en production technique (code propre, reproductible).
+
+Ce projet vise à développer les compétences suivantes :
+
+Analyse exploratoire et compréhension métier des données.
+Prétraitement et ingénierie des caractéristiques (Feature Engineering).
+Sélection, entraînement et optimisation de modèles.
+Communication technique et restitution des résultats.
+2. Choix du Dataset
+L'étudiant doit sélectionner un jeu de données (Dataset) pertinent pour résoudre un problème de classification , de régression ou autre(Unsupervised Learning tasks ou Deeplearning).
+
+Sources recommandées :
+
+Source 1 (Locale) : Portail Open Data Tunisien (https://www.data.gov.tn/)
+Intérêt : Données locales, contextuelles, souvent peu nettoyées (travail de préprocessing plus réaliste).
+Source 2 (Santé/Science) : Stanford Data Sources (https://med.stanford.edu/sdsr/datasets.html)
+Intérêt : Données complexes, domaines pointus (santé, génétique), idéal pour des problématiques de classification médicale.
+Source 3 (Alternative) : Plateformes reconnues (Kaggle, UCI Machine Learning Repository).
+Note : Si l'étudiant choisit une source externe, il doit justifier sa pertinence par rapport aux sources proposées.
+Critères de sélection : Le dataset doit contenir au minimum 500 lignes et plusieurs variables explicatives (features). Il doit permettre de répondre à une question claire (ex: prédiction d'une maladie, estimation de prix, classification de type de culture, etc.).
+
+📋 Instructions pour le remplissage du formulaire
+
+Ce formulaire doit être rempli et soumis une seule fois par un seul membre des binomes ou des trinômes.
+
+Veuillez remplir ce formulaire afin de réserver votre créneau de soutenance du module Machine Learning POUR LE GROUPE 4GL ET ML+DL POUR LE GROUPE 4DS encadré par M. Abdallah Khemais. 
+
+ 📧 abdallah.khemais@gmail.com 
+
+📁 Contenu du dépôt GitHub 
+
+Vous devez fournir le lien de votre dépôt GitHub dans ce formulaire. Ce dépôt doit impérativement contenir les éléments suivants :
+
+ Notebooks de brouillon (drafts) : l'ensemble de vos expérimentations et essais réalisés tout au long du projet
+📊 Notebook final soigné : un notebook complet et propre présentant votre démarche, vos pipelines ML, votre analyse comparative entre les différents modèles testés ainsi que votre conclusion
+📑 Présentation PowerPoint : entre 7 et 8 slides maximum, qui sera présentée le jour de la soutenance
+📝 README professionnel : un fichier README clair, structuré et soigné qui résume et présente l'ensemble du projet
+Tous les notebooks doivent être ajouté dans un dossier notebook format ipynb
+⚠️ Tout dépôt incomplet ou lien non fonctionnel entraînera une pénalité sur la note.
+
+⚖️ Barème de notation — Total : 20 points
+
+🗂️ Note du dépôt GitHub — qualité technique, clarté de l'analyse, pertinence de la démarche ML/DL et qualité de la présentation
+10 pts

@@ -1,0 +1,75 @@
+{
+    "features_list": [
+        "Gender",
+        "Married",
+        "Dependents",
+        "Education",
+        "Self_Employed",
+        "ApplicantIncome",
+        "CoapplicantIncome",
+        "LoanAmount",
+        "Loan_Amount_Term",
+        "Credit_History",
+        "Property_Area",
+        "Loan_Status",
+        "dti_ratio",
+        "total_income",
+        "loan_to_income",
+        "income_category",
+        "loan_category"
+    ],
+    "medians": {
+        "ApplicantIncome": 3812.5,
+        "CoapplicantIncome": 1188.5,
+        "LoanAmount": 128.0,
+        "Loan_Amount_Term": 360.0,
+        "Credit_History": 1.0
+    },
+    "modes": {
+        "Gender": "Male",
+        "Married": "Yes",
+        "Dependents": "0",
+        "Education": "Graduate",
+        "Self_Employed": "No",
+        "Property_Area": "Semiurban",
+        "Loan_Status": "Y"
+    },
+    "clipping_bounds": {
+        "ApplicantIncome": {
+            "lower": -1498.75,
+            "upper": 10171.25
+        },
+        "CoapplicantIncome": {
+            "lower": -3445.875,
+            "upper": 5743.125
+        },
+        "LoanAmount": {
+            "lower": 3.5,
+            "upper": 261.5
+        },
+        "Loan_Amount_Term": {
+            "lower": 360.0,
+            "upper": 360.0
+        },
+        "Credit_History": {
+            "lower": 1.0,
+            "upper": 1.0
+        }
+    },
+    "total_income_bins": [
+        1442.0,
+        4166.0,
+        5416.5,
+        7452.5,
+        15914.375
+    ],
+    "loan_amount_bins": [
+        9.0,
+        100.25,
+        128.0,
+        164.75,
+        261.5
+    ],
+    "f1_train_score": 0.7443780928525826,
+    "accuracy_test_score": 0.6260162601626016
+}
